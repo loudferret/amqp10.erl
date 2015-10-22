@@ -1,0 +1,13 @@
+{application, amqp1,
+ [
+  {description, "Erlang AMQP v1.0 Client"},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { amqp1_app, []}},
+  {env, []}
+ ]}.
+
