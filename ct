@@ -1,0 +1,11 @@
+#!/bin/dash
+
+echo rebar compile
+rebar compile
+
+echo rebar eunit
+rebar eunit
+
+echo make test
+make test
+
